@@ -238,8 +238,8 @@ class utils {
      */
     public static function get_option_for_eventtype() {
         return [
-            self::ACTION_CODES['create'] => get_string('event_join', 'bbbext_flexurl'),
-            self::ACTION_CODES['join'] => get_string('event_create', 'bbbext_flexurl'),
+            self::ACTION_CODES['create'] => get_string('event_create', 'bbbext_flexurl'),
+            self::ACTION_CODES['join'] => get_string('event_join', 'bbbext_flexurl'),
             self::ACTION_CODES['all'] => get_string('event_all', 'bbbext_flexurl'),
         ];
     }
